@@ -1,0 +1,137 @@
+void MyGraph::connectA_to_B()
+{
+    SetConsoleTextAttribute(hConsole, 13); //change font color - Pink
+
+    horizontalLine(40, 18, 14);//create horizontal lines with parameters (x axis, y axis, and length)
+    horizontalLine(40, 19, 14);
+
+    verticalLine(53, 19, 14);//create vertical lines
+    verticalLine(54, 19, 14);
+
+    gotoxy(54, 18); //print corners
+    cout << char(187);
+    gotoxy(53, 19);
+    cout << char(187);
+}
+
+void MyGraph::connectA_to_C()
+{
+    SetConsoleTextAttribute(hConsole, 6); //change font color - dark yellow
+    horizontalLine(65, 18, 15);//create horizontal lines
+    horizontalLine(65, 19, 15);
+
+    verticalLine(64, 19, 14);//create vertical lines
+    verticalLine(65, 19, 14);
+
+    gotoxy(64, 18);//print corners
+    cout << char(201);
+    gotoxy(65, 19);
+    cout << char(201);
+}
+
+void MyGraph::connectA_to_D()
+{
+    SetConsoleTextAttribute(hConsole, 9); //change font color - Blue 
+    horizontalLine(30, 51, 22);//create horizontal lines
+    horizontalLine(30, 52, 24);
+
+    verticalLine(52, 43, 8);//create vertical lines
+    verticalLine(53, 43, 10);
+
+    gotoxy(52, 51);//print corners
+    cout << char(188);
+    gotoxy(53, 52);
+    cout << char(188);
+}
+
+void MyGraph::connectA_to_E()
+{
+    SetConsoleTextAttribute(hConsole, 5); //change font color - dark Pink
+    horizontalLine(68, 51, 22);//create horizontal lines
+    horizontalLine(66, 52, 24);
+
+    verticalLine(67, 43, 8);//create vertical lines
+    verticalLine(66, 43, 10);
+
+    gotoxy(67, 51); //print corners
+    cout << char(200);
+    gotoxy(66, 52);
+    cout << char(200);
+}
+
+void MyGraph::connectB_to_C()
+{
+    SetConsoleTextAttribute(hConsole, 4); //change font color - dark Red
+    horizontalLine(40, 15, 40);//create horizontal lines
+    horizontalLine(40, 16, 40);
+}
+
+void MyGraph::connectB_to_D()
+{
+    SetConsoleTextAttribute(hConsole, 15); //change font color - Blue
+    verticalLine(23, 23, 25);//create vertical lines
+    verticalLine(24, 23, 25);
+}
+
+void MyGraph::connectB_to_E()
+{
+    SetConsoleTextAttribute(hConsole, 11); //change font color -  Cyan
+    verticalLine(29, 11, 2);//create vertical lines
+    verticalLine(30, 11, 2);
+
+    gotoxy(29, 10);//print corners
+    cout << char(201);
+    gotoxy(30, 11);
+    cout << char(201);
+
+    horizontalLine(30, 10, 75);//create horizontal lines
+    horizontalLine(31, 11, 75);
+
+    verticalLine(105, 11, 37);//create vertical lines
+    verticalLine(104, 11, 37);
+
+    gotoxy(105, 10);//print corners
+    cout << char(187);
+    gotoxy(104, 11);
+    cout << char(187);
+}
+
+void MyGraph::connectC_to_D()
+{
+    SetConsoleTextAttribute(hConsole, 12); //change font color - Red
+
+    horizontalLine(15, 8, 75);//create horizontal lines
+    horizontalLine(14, 9, 76);
+
+    verticalLine(90, 9, 4);//create vertical lines
+    verticalLine(89, 9, 4);
+
+    verticalLine(14, 9, 39);//create vertical lines
+    verticalLine(15, 9, 39);
+
+    gotoxy(14, 8); //print corners
+    cout << char(201);
+    gotoxy(15, 9);
+    cout << char(201);
+
+    gotoxy(90, 8);
+    cout << char(187);
+    gotoxy(89, 9);
+    cout << char(187);
+}
+
+void MyGraph::connectC_to_E()
+{
+    SetConsoleTextAttribute(hConsole, 1); //change font color - Dark Blue
+
+    verticalLine(96, 23, 25);//create vertical lines
+    verticalLine(95, 23, 25);
+}
+
+void MyGraph::connectD_to_E()
+{
+    SetConsoleTextAttribute(hConsole, 10); //change font color - Green
+
+    horizontalLine(30, 54, 60);//create horizontal lines
+    horizontalLine(30, 55, 60);
+}
